@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  height: 623.5px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+footer {
+  height: 95.5px;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.img-size {
+  width: 272px;
+  height: 92px;
+}
+.img-location {
+  margin-top: 127px;
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;  
+}
+.button-box {
+  padding-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+.button-style {
+  height: 36px;
+  min-width: 54px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  margin: 14px 4px;
+  padding: 0 16px;
+}
+.nav_font {
+  color: rgba(0,0,0,.87);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.footer_font {
+  color: var(--YLNNHc);
+  font-family: "Apple SD Gothic Neo", arial, sans-serif;
+  font-size: 14px;
+}
