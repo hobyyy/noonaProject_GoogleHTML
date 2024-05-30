@@ -6,12 +6,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 6px;
 }
 main {
-  height: 623.5px;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
+  height: 835px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
 }
 footer {
   height: 95.5px;
@@ -24,19 +26,56 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.menu-img {
+ padding: 8px; 
+}
+.nav-text {
+  color: rgba(0,0,0,.87);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 0 7.5px;
+}
+.login-button {
+  background-color: #1a73e8;
+  font-family: "Google Sans", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+}
 .img-size {
   width: 272px;
   height: 92px;
 }
 .img-location {
-  margin-top: 127px;
+  margin-top: 198px;
   display: flex;
   justify-content: center;
 }
 .search-box {
-  padding-top: 26px;
+  width: 582px;
+  height: 46px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin-top: 26px;
   display: flex;
-  justify-content: center;  
+  /* justify-content: center;   */
+}
+.search-box-icon-location {
+  color: rgb(154, 160, 166);
+  display: flex;
+  align-items: center;
+  padding: 0 13px;
+}
+.input-style {
+  background-color: white;
+  border: 0px solid;
+  flex: 1;
+  outline:none;
+}
+.form-control:focus {
+  box-shadow: none;
 }
 .button-box {
   padding-top: 18px;
@@ -52,13 +91,29 @@ a:hover {
   margin: 14px 4px;
   padding: 0 16px;
 }
-.nav_font {
-  color: rgba(0,0,0,.87);
-  font-family: arial, sans-serif;
-  font-size: 13px;
+.button-style:hover {
+  border: 1px solid #dadce0;
 }
-.footer_font {
+
+.footer-text {
   color: var(--YLNNHc);
   font-family: "Apple SD Gothic Neo", arial, sans-serif;
   font-size: 14px;
+  padding: 15px 30px;
 }
+.footer-text:hover {
+  color: var(--YLNNHc);
+  text-decoration: underline;
+}
+.footer-secondline {
+  display: flex;
+  justify-content: space-between;
+}
+/* .footer-secondline-first {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-secondline-second {
+  display: flex;
+  justify-content: flex-end;
+} */
