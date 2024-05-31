@@ -105,15 +105,9 @@ a:hover {
   color: var(--YLNNHc);
   text-decoration: underline;
 }
+
 .footer-secondline {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid rgba(44, 43, 43, 0.116);
 }
-/* .footer-secondline-first {
-  display: flex;
-  justify-content: flex-start;
-}
-.footer-secondline-second {
-  display: flex;
-  justify-content: flex-end;
-} */
